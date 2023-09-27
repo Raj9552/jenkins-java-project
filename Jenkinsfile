@@ -8,14 +8,14 @@ pipeline{
 		DEV_IP = "172.31.6.150"
 	}
 	stages{
-	/*
+	
 		stage('SCM - Checkout'){
 			steps{
-				git url: 'https://github.com/javahometech/myweb'
+				git url: 'https://github.com/Ajoke93/jenkins-java-project.git'
 			
 			}
 		}
-	*/	
+		
 	
 	    stage('sonar and maven'){
 			parallel{
